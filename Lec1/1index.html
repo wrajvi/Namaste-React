@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste</title>
+</head>
+<body>
+     <div id="root">
+        <h1>Hello ji</h1>
+     </div>
+     <div id="container">
+
+     </div>
+     
+</body>
+<!-- <script>
+    const heading=document.createElement("h1");
+    heading.innerHTML="Hello";
+    document.getElementById("root").appendChild(heading);
+</script> -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script>
+    const heading=React.createElement('h1',{
+    },'Namaste React');
+    const root=ReactDOM.createRoot(document.getElementById("root"));
+    root.render(heading);
+
+
+    // const heading1=React.createElement("h1",{},"HAAHAA");
+    // const heading2=React.createElement("h2",{},"HELLO JI");
+    // const comp=React.createElement("div",{},[heading1,heading2]);//Ways to get Multiple Childrens
+
+    // const container=ReactDOM.createRoot(document.getElementById("container"));
+    // container.render(comp);
+
+
+
+
+
+    // const h1=React.createElement("h1",{},"Haan ji");
+    // const h2=React.createElement("h3",{},"NAA ji");
+    // const container=ReactDOM.createRoot(document.getElementById("container"));
+    // container.render([h1,h2]);
+
+</script>
+</html>

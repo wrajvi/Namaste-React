@@ -1,0 +1,23 @@
+npm init
+It will make a package.json file
+Which is used to keep the Record of Version  of Dependencies.
+
+
+
+npm install -D parcel
+-D means parcel with devDependencies
+it will give us node_modules and package-lock.json
+In package-lock we will have exact Version of anything.
+
+
+npm install react
+
+npm install react-dom
+
+npx parcel index.html
+To execute our React App.
+
+
+npm install react-router-dom
+
+
